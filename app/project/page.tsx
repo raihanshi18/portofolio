@@ -1,4 +1,3 @@
-import ExperienceDesc from "@/components/ExperienceDesc";
 import ProjectDesc from "@/components/ProjectDesc";
 import ProjectHero from "@/components/ProjectHero";
 import ProjectPrev from "@/components/ProjectPrev";

@@ -73,8 +73,8 @@ const Navbar = () => {
             {/* ── OVERLAY MENU ── */}
             <div
                 className={`fixed inset-0 z-40 bg-linear-to-r from-blue-700 to-blue-600/60 text-white font-clash overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.76,0,0.24,1)] ${isOpen
-                        ? 'translate-y-0 opacity-100 pointer-events-auto'
-                        : 'translate-y-full opacity-0 pointer-events-none'
+                    ? 'translate-y-0 opacity-100 pointer-events-auto'
+                    : 'translate-y-full opacity-0 pointer-events-none'
                     }`}
             >
                 <div className="px-24 pt-14 flex items-start gap-16">
@@ -93,8 +93,8 @@ const Navbar = () => {
                                     key={item.id}
                                     onClick={() => !isActive && handleSetActive(item.id)}
                                     className={`text-md transition-transform flex items-center gap-3 select-none ${isActive
-                                            ? 'cursor-default hover:scale-95'
-                                            : 'cursor-pointer hover:scale-95'
+                                        ? 'cursor-default hover:scale-95'
+                                        : 'cursor-pointer hover:scale-95'
                                         }`}
                                 >
                                     <span className="opacity-60">{item.number}</span>
@@ -111,8 +111,8 @@ const Navbar = () => {
                 <div className="px-24 mt-12 overflow-hidden">
                     {/* ABOUT */}
                     <div className={`transition-all duration-350 ease-[cubic-bezier(0.76,0,0.24,1)] ${activeItem === 'about' && !isTransitioning
-                            ? 'opacity-100 translate-y-0 pointer-events-auto'
-                            : 'opacity-0 translate-y-6 pointer-events-none absolute'
+                        ? 'opacity-100 translate-y-0 pointer-events-auto'
+                        : 'opacity-0 translate-y-6 pointer-events-none absolute'
                         }`}>
                         <div className="max-w-xl">
                             <div className="overflow-hidden">
@@ -122,9 +122,13 @@ const Navbar = () => {
                             </div>
                             <div className="overflow-hidden">
                                 <p className={`text-lg leading-relaxed transition-all duration-500 delay-[120ms] ease-[cubic-bezier(0.76,0,0.24,1)] ${activeItem === 'about' && !isTransitioning ? 'translate-y-0 opacity-80' : 'translate-y-full opacity-0'}`}>
-                                    Student of Software Engineering — Web Developer based in Bandung, West Java.
-                                    Crafting refined digital experiences with focus on animated,
-                                    responsive, and interactive content.
+                                    ackend Developer berbasis di Bandung, Jawa Barat.
+                                    Berfokus pada pengembangan sistem yang efisien, scalable, dan terstruktur dengan baik.
+                                    Memiliki pengalaman menggunakan teknologi seperti JavaScript, PHP, Laravel, dan MySQL untuk membangun API serta mengelola database secara optimal.
+
+                                    Saya memiliki ketertarikan dalam merancang arsitektur backend, mengoptimalkan performa aplikasi, serta memastikan keamanan dan 
+                                    keandalan sistem. Selain itu, saya terus belajar dan mengeksplorasi teknologi baru untuk menciptakan solusi backend yang robust 
+                                    dan siap digunakan di dunia nyata.
                                 </p>
                             </div>
                         </div>
@@ -132,8 +136,8 @@ const Navbar = () => {
 
                     {/* JOURNAL */}
                     <div className={`transition-all duration-350 ease-[cubic-bezier(0.76,0,0.24,1)] ${activeItem === 'journal' && !isTransitioning
-                            ? 'opacity-100 translate-y-0 pointer-events-auto'
-                            : 'opacity-0 translate-y-6 pointer-events-none absolute'
+                        ? 'opacity-100 translate-y-0 pointer-events-auto'
+                        : 'opacity-0 translate-y-6 pointer-events-none absolute'
                         }`}>
                         <div className="max-w-xl">
                             <div className="overflow-hidden">
@@ -189,11 +193,10 @@ const Navbar = () => {
             {/* ── LOGO KIRI ATAS — hanya di /experience ── */}
             {(isExperience || isProject) && (
                 <div className={`fixed top-0 left-0 px-24 pt-10 z-50 text-white font-clash transition-all duration-500 ${isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
-                    <h1 className={`text-7xl font-black leading-none cursor-pointer select-none transition-all duration-500 ${
-                        isScrolled
+                    <h1 className={`text-7xl font-black leading-none cursor-pointer select-none transition-all duration-500 ${isScrolled
                             ? 'text-transparent [-webkit-text-stroke:2px_white] [paint-order:stroke]'
                             : 'hover:text-transparent hover:[-webkit-text-stroke:2px_white] hover:[paint-order:stroke]'
-                    }`}>
+                        }`}>
                         <a href="/">HAN<br />ABDUR<br />SHI.</a>
                     </h1>
                 </div>
@@ -201,11 +204,10 @@ const Navbar = () => {
 
             {/* ── BOTTOM NAVBAR ── */}
             <nav
-                className={`fixed bottom-0 left-0 w-full px-24 py-10 mb-2 text-white z-50 font-clash transition-all duration-500 ${
-                    isOpen || isScrolled
+                className={`fixed bottom-0 left-0 w-full px-24 py-10 mb-2 text-white z-50 font-clash transition-all duration-500 ${isOpen || isScrolled
                         ? 'opacity-0 pointer-events-none translate-y-4'
                         : 'opacity-100 translate-y-0'
-                }`}
+                    }`}
             >
                 <div>
                     {!isExperience || isProject && (

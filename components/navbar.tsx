@@ -107,9 +107,13 @@ const Navbar = () => {
                             <div className="overflow-hidden">
                                 <p className={`text-lg leading-relaxed transition-all duration-500 delay-[120ms] ease-[cubic-bezier(0.76,0,0.24,1)] ${activeItem === 'about' && !isTransitioning ? 'translate-y-0 opacity-80' : 'translate-y-full opacity-0'
                                     }`}>
-                                    Student of Software Engineering — Web Developer based in Bandung, West Java.
-                                    Crafting refined digital experiences with focus on animated,
-                                    responsive, and interactive content.
+                                    Backend Developer berbasis di Bandung, Jawa Barat.
+                                    Berfokus pada pengembangan sistem yang efisien, scalable, dan terstruktur dengan baik.
+                                    Memiliki pengalaman menggunakan teknologi seperti JavaScript, PHP, Laravel, dan MySQL untuk membangun API serta mengelola database secara optimal.
+
+                                    Saya memiliki ketertarikan dalam merancang arsitektur backend, mengoptimalkan performa aplikasi, serta memastikan keamanan dan 
+                                    keandalan sistem. Selain itu, saya terus belajar dan mengeksplorasi teknologi baru untuk menciptakan solusi backend yang robust 
+                                    dan siap digunakan di dunia nyata.
                                 </p>
                             </div>
                         </div>
@@ -130,7 +134,7 @@ const Navbar = () => {
                             <div className="overflow-hidden">
                                 <p className={`text-lg leading-relaxed transition-all duration-500 delay-[120ms] ease-[cubic-bezier(0.76,0,0.24,1)] ${activeItem === 'journal' && !isTransitioning ? 'translate-y-0 opacity-80' : 'translate-y-full opacity-0'
                                     }`}>
-                                    Thoughts, experiments, and notes from the studio.
+                                    Kumpulan catatan, eksperimen, dan pembelajaran saya dalam mengembangkan backend—mulai dari API, database, hingga arsitektur sistem yang efisien dan scalable.
                                 </p>
                             </div>
                         </div>
