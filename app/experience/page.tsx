@@ -25,7 +25,7 @@ const Page = () => {
             <SliderBanner />
 
             {/* NEXT PROJECT */}
-            <section className="w-full flex justify-end pt-28 px-40 pb-96">
+            <section className="w-full flex justify-end py-50 px-40">
 
                 <div className="w-[80%] flex justify-end items-end">
 
@@ -59,7 +59,7 @@ const Page = () => {
             </section>
 
             {/* NAVBAR */}
-            <TopBar />
+            <Navbar />
 
         </main>
     );

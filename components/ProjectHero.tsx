@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectHero = () => {
   return (
-    <section className="w-full bg-blue-700 pb-28 pt-72 relative">
+    <section className="w-full bg-blue-700 py-56 relative">
 
       {/* WRAPPER */}
       <div className="w-full relative flex justify-center">

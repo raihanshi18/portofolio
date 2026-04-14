@@ -17,7 +17,7 @@ const HeroText = () => {
         {/* EXPERIENCE */}
         <h1
           className="
-            text-[200px]
+            text-[130px]
             transition-all duration-500
             
             origin-right
@@ -35,7 +35,7 @@ const HeroText = () => {
         {/* PROJECT */}
         <h1
           className="
-            text-[200px]
+            text-[130px]
             transition-all duration-500
             
             origin-right

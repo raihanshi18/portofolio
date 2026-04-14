@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 const ProjectPrev = () => {
     return (
-        <section className="w-full bg-blue-700 flex items-center justify-center">
+        <section className="w-full bg-blue-700 flex items-center justify-center py-20 px-8">
             <div className="w-[80%] flex items-start gap-20">
 
                 {/* IMAGE */}
