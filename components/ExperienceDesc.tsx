@@ -29,13 +29,6 @@ const ExperienceDesc = () => {
                 {/* RIGHT */}
                 <div className="space-y-5 sm:space-y-6 transition-all duration-500">
                     <div>
-                        <p className="text-xs sm:text-sm font-bold uppercase tracking-widest opacity-60 mb-1">Website</p>
-                        <p className="text-sm sm:text-base font-medium">
-                            www.lunarinteractive.dev
-                        </p>
-                    </div>
-
-                    <div>
                         <p className="text-xs sm:text-sm font-bold uppercase tracking-widest opacity-60 mb-1">Peran</p>
                         <p className="text-sm sm:text-base">
                             Back-end Developer
